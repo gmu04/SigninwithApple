@@ -10,7 +10,6 @@
 		F7EE0EE329B4F0B3006204D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0EE229B4F0B3006204D4 /* AppDelegate.swift */; };
 		F7EE0EE529B4F0B3006204D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0EE429B4F0B3006204D4 /* SceneDelegate.swift */; };
 		F7EE0EE729B4F0B3006204D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0EE629B4F0B3006204D4 /* ViewController.swift */; };
-		F7EE0EEA29B4F0B3006204D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EE0EE829B4F0B3006204D4 /* Main.storyboard */; };
 		F7EE0EEC29B4F0B7006204D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EE0EEB29B4F0B7006204D4 /* Assets.xcassets */; };
 		F7EE0EEF29B4F0B7006204D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EE0EED29B4F0B7006204D4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		F7EE0EE229B4F0B3006204D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7EE0EE429B4F0B3006204D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F7EE0EE629B4F0B3006204D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7EE0EE929B4F0B3006204D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7EE0EEB29B4F0B7006204D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7EE0EEE29B4F0B7006204D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7EE0EF029B4F0B7006204D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +54,38 @@
 		F7EE0EE129B4F0B3006204D4 /* SigninwithApple_MediumCom */ = {
 			isa = PBXGroup;
 			children = (
-				F7EE0EE229B4F0B3006204D4 /* AppDelegate.swift */,
-				F7EE0EE429B4F0B3006204D4 /* SceneDelegate.swift */,
-				F7EE0EE629B4F0B3006204D4 /* ViewController.swift */,
-				F7EE0EE829B4F0B3006204D4 /* Main.storyboard */,
-				F7EE0EEB29B4F0B7006204D4 /* Assets.xcassets */,
-				F7EE0EED29B4F0B7006204D4 /* LaunchScreen.storyboard */,
-				F7EE0EF029B4F0B7006204D4 /* Info.plist */,
+				F7EE0EF829B4F0D4006204D4 /* App */,
+				F7EE0EF629B4F0BF006204D4 /* Storyboards */,
+				F7EE0EF729B4F0CC006204D4 /* Viewcontrollers */,
 			);
 			path = SigninwithApple_MediumCom;
+			sourceTree = "<group>";
+		};
+		F7EE0EF629B4F0BF006204D4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7EE0EED29B4F0B7006204D4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F7EE0EF729B4F0CC006204D4 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				F7EE0EE629B4F0B3006204D4 /* ViewController.swift */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		F7EE0EF829B4F0D4006204D4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F7EE0EE229B4F0B3006204D4 /* AppDelegate.swift */,
+				F7EE0EE429B4F0B3006204D4 /* SceneDelegate.swift */,
+				F7EE0EEB29B4F0B7006204D4 /* Assets.xcassets */,
+				F7EE0EF029B4F0B7006204D4 /* Info.plist */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +148,6 @@
 			files = (
 				F7EE0EEF29B4F0B7006204D4 /* LaunchScreen.storyboard in Resources */,
 				F7EE0EEC29B4F0B7006204D4 /* Assets.xcassets in Resources */,
-				F7EE0EEA29B4F0B3006204D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7EE0EE829B4F0B3006204D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7EE0EE929B4F0B3006204D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7EE0EED29B4F0B7006204D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SigninwithApple_MediumCom/SigninwithApple_MediumCom.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85373584HZ;
@@ -292,9 +305,8 @@
 				INFOPLIST_FILE = SigninwithApple_MediumCom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +314,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gokhanmutlu.example.SigninwithApple-MediumCom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SigninwithApple_MediumCom/SigninwithApple_MediumCom.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85373584HZ;
@@ -320,9 +336,8 @@
 				INFOPLIST_FILE = SigninwithApple_MediumCom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +345,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gokhanmutlu.example.SigninwithApple-MediumCom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
