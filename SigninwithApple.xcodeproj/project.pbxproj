@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7EE0EDF29B4F0B3006204D4 /* SigninwithApple_MediumCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigninwithApple_MediumCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EE0EDF29B4F0B3006204D4 /* SigninwithApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigninwithApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EE0EE229B4F0B3006204D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7EE0EE429B4F0B3006204D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F7EE0EE629B4F0B3006204D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		F7EE0ED629B4F0B3006204D4 = {
 			isa = PBXGroup;
 			children = (
-				F7EE0EE129B4F0B3006204D4 /* SigninwithApple_MediumCom */,
+				F7EE0EE129B4F0B3006204D4 /* SigninwithApple */,
 				F7EE0EE029B4F0B3006204D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,19 +46,19 @@
 		F7EE0EE029B4F0B3006204D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7EE0EDF29B4F0B3006204D4 /* SigninwithApple_MediumCom.app */,
+				F7EE0EDF29B4F0B3006204D4 /* SigninwithApple.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7EE0EE129B4F0B3006204D4 /* SigninwithApple_MediumCom */ = {
+		F7EE0EE129B4F0B3006204D4 /* SigninwithApple */ = {
 			isa = PBXGroup;
 			children = (
 				F7EE0EF829B4F0D4006204D4 /* App */,
 				F7EE0EF629B4F0BF006204D4 /* Storyboards */,
 				F7EE0EF729B4F0CC006204D4 /* Viewcontrollers */,
 			);
-			path = SigninwithApple_MediumCom;
+			path = SigninwithApple;
 			sourceTree = "<group>";
 		};
 		F7EE0EF629B4F0BF006204D4 /* Storyboards */ = {
@@ -91,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7EE0EDE29B4F0B3006204D4 /* SigninwithApple_MediumCom */ = {
+		F7EE0EDE29B4F0B3006204D4 /* SigninwithApple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7EE0EF329B4F0B7006204D4 /* Build configuration list for PBXNativeTarget "SigninwithApple_MediumCom" */;
+			buildConfigurationList = F7EE0EF329B4F0B7006204D4 /* Build configuration list for PBXNativeTarget "SigninwithApple" */;
 			buildPhases = (
 				F7EE0EDB29B4F0B3006204D4 /* Sources */,
 				F7EE0EDC29B4F0B3006204D4 /* Frameworks */,
@@ -103,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = SigninwithApple_MediumCom;
+			name = SigninwithApple;
 			productName = SigninwithApple_MediumCom;
-			productReference = F7EE0EDF29B4F0B3006204D4 /* SigninwithApple_MediumCom.app */;
+			productReference = F7EE0EDF29B4F0B3006204D4 /* SigninwithApple.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7EE0EDA29B4F0B3006204D4 /* Build configuration list for PBXProject "SigninwithApple_MediumCom" */;
+			buildConfigurationList = F7EE0EDA29B4F0B3006204D4 /* Build configuration list for PBXProject "SigninwithApple" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7EE0EDE29B4F0B3006204D4 /* SigninwithApple_MediumCom */,
+				F7EE0EDE29B4F0B3006204D4 /* SigninwithApple */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +297,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SigninwithApple_MediumCom/SigninwithApple_MediumCom.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SigninwithApple/SigninwithApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85373584HZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SigninwithApple_MediumCom/Info.plist;
+				INFOPLIST_FILE = SigninwithApple/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -312,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gokhanmutlu.example.SigninwithApple-MediumCom";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.SigninwithApple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -328,12 +328,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SigninwithApple_MediumCom/SigninwithApple_MediumCom.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SigninwithApple/SigninwithApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85373584HZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SigninwithApple_MediumCom/Info.plist;
+				INFOPLIST_FILE = SigninwithApple/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -343,7 +343,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gokhanmutlu.example.SigninwithApple-MediumCom";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.SigninwithApple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7EE0EDA29B4F0B3006204D4 /* Build configuration list for PBXProject "SigninwithApple_MediumCom" */ = {
+		F7EE0EDA29B4F0B3006204D4 /* Build configuration list for PBXProject "SigninwithApple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7EE0EF129B4F0B7006204D4 /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7EE0EF329B4F0B7006204D4 /* Build configuration list for PBXNativeTarget "SigninwithApple_MediumCom" */ = {
+		F7EE0EF329B4F0B7006204D4 /* Build configuration list for PBXNativeTarget "SigninwithApple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7EE0EF429B4F0B7006204D4 /* Debug */,

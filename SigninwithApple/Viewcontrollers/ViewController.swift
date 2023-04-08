@@ -34,6 +34,7 @@ extension ViewController: ASAuthorizationControllerDelegate{
 				let email = appleIDCredential.email ?? "no-email"
 				
 				print("\(userIdentifier), \(String(describing: fullName)), \(email)")
+				
 				//user authenticated and run your app
 				
 			default:
